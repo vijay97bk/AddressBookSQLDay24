@@ -20,3 +20,4 @@ values ('Dilip', 'Rathod', 'Mysore', 9765432180, 'def.gmail.com'),
 ('Sarvesh', 'Mathpati', 'Bidar', 9638527410, 'ghi.gmail.com'),
 ('Sonal', 'Karle', 'Mumbai', 7896541230, 'jkl.gmail.com');
 
+update Address_Book set Address='Rajapur' where FirstName = 'Ramesh';
