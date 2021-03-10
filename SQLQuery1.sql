@@ -31,3 +31,6 @@ update Address_Book set State='Karnataka' where City='Bidar';
 
 select * from Address_Book where City = 'Mumbai';
 select * from Address_Book where State = 'Karnataka';
+
+select City, count(City) from Address_Book group by city;
+select State, count(State) from Address_Book group by State;
