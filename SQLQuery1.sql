@@ -21,3 +21,6 @@ values ('Dilip', 'Rathod', 'Mysore', 9765432180, 'def.gmail.com'),
 ('Sonal', 'Karle', 'Mumbai', 7896541230, 'jkl.gmail.com');
 
 update Address_Book set Address='Rajapur' where FirstName = 'Ramesh';
+
+delete from Address_Book where FirstName = 'Dilp' or LastName='Rathod';
+
