@@ -24,3 +24,10 @@ update Address_Book set Address='Rajapur' where FirstName = 'Ramesh';
 
 delete from Address_Book where FirstName = 'Dilp' or LastName='Rathod';
 
+alter table Address_Book
+add State varchar(50);
+
+update Address_Book set State='Karnataka' where City='Bidar';
+
+select * from Address_Book where City = 'Mumbai';
+select * from Address_Book where State = 'Karnataka';
